@@ -1,3 +1,5 @@
+// Assignment link: https://www.jobreadyprogrammer.com/blog/5893/oop-api-assignment 
+
 package clients;
 
 import queries.QueryBuilder;
