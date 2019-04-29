@@ -32,20 +32,21 @@ public class QueryBuilder {
 		private String item_type;
 		private String Dairy;
 
-		// Constructors for arguments as above
-		public Builder item_column(String item, String itemName) {
-			this.item = item;
-			this.itemName = itemName;
-			return this;
-		}
+// No Use
+//		// Constructors for arguments as above
+//		public Builder item_column(String item, String itemName) {
+//			this.item = item;
+//			this.itemName = itemName;
+//			return this;
+//		}
+//
+//		public Builder itemType_column(String item_type, String Dairy) {
+//			this.item_type = item_type;
+//			this.Dairy = Dairy;
+//			return this;
+//		}
 
-		public Builder itemType_column(String item_type, String Dairy) {
-			this.item_type = item_type;
-			this.Dairy = Dairy;
-			return this;
-		}
-
-		// method for building User class
+		// Method for building User class
 		public QueryBuilder bool() {
 			return new QueryBuilder(this);
 		}

@@ -5,8 +5,7 @@ import queries.QueryBuilder;
 public class Test {
 	public static void main(String[] args) {
 		// for temporary test
-		QueryBuilder builder = new QueryBuilder.Builder().item_column("item", "Milk")
-				.itemType_column("item_type", "Dairy").bool();
+		QueryBuilder builder = new QueryBuilder.Builder().bool();
 
 		System.out.println(builder);
 
