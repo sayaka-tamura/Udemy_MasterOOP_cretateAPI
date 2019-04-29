@@ -12,8 +12,13 @@ public class Test {
 		System.out.println(builder);
 
 		/** given code from assignment */
-//		builder.bool().mustMatch("item", "Milk").mustMatch("item_type", "Dairy");
-//		builder.bool().shouldMatch("product_location", "New Mexico").shouldMatch("warehouse_number", 37);
+		// That's what should be in "must" category, key=(item)Milk,
+		// value=(item_type)Dairy
+//		builder.bool().mustMatch("item", "Milk").mustMatch("item_type", "Dairy"); 
+
+		// That's what should be in "should" category, key=(product_location)New Mexico,
+		// value=(warehouse_no)37
+//		builder.bool().shouldMatch("product_location", "New Mexico").shouldMatch("warehouse_number", 37); 
 //
 //		builder.bool().shouldMatch("lot_number", 307).bool().mustMatch("expiry_date", "Jan 2020");
 	}

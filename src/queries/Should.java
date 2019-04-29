@@ -5,7 +5,6 @@ package queries;
  *         Java Final Assignment: Create API
  * 
  */
-
 public class Should implements Query {
 
 	@Override
