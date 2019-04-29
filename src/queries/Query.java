@@ -1,3 +1,5 @@
+// Used Interface Segregation (Ref.) section3.interfaceSegregationPrinciple ?
+
 package queries;
 
 public interface Query {

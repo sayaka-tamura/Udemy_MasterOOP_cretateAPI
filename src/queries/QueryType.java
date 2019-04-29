@@ -1,10 +1,12 @@
 package queries;
+
 /**
  * @author : Sayaka Tamura Apr 29, 2019 Udemy Master Object Oriented Design in
  *         Java Final Assignment: Create API
  * 
  */
-// Factory Pattern: when we want to use another class to create object for us
+// Used Factory Pattern (Ref.) section4.factoryMethod
+// When we want to use another class to create object for us
 // can define abstract class to instantiate instances of an enum type.
 
 public enum QueryType {
